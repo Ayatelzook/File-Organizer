@@ -46,11 +46,17 @@ function iteration () {
 ##search for the hidden files
 
 function hidden_files () {
-    
-    hidden=$(find $1 -type f -name ".*" )
-    ext="."
-    search_extension "$ext" "$hidden"
 
+    hidden=$(find $1 -type f -name ".*" )
+    
+    if [ -z "$hidden" ]; then
+        return      ##-->no hidden files
+    else
+        ext="."
+       search_extension "$ext" "$hidden"
+    fi
+
+    
  }
 
 ##get the file extension 
