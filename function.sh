@@ -52,7 +52,8 @@ function hidden_files () {
     if [ -z "$hidden" ]; then
         return      ##-->no hidden files
     else
-        ext="."
+        extension=${hidden##*.}
+        ext=${extension##*.}
        search_extension "$ext" "$hidden"
     fi
 
