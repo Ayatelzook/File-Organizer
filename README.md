@@ -19,7 +19,7 @@ Suppose you have a directory called `Downloads` with the following files:
 ### output
 -Downloads/
 - txt/-- file1.txt
--jpg/-- file2.jpg
--pdf/-- file3.pdf
--misc/-- file5_without_extension
+- jpg/-- file2.jpg
+- pdf/-- file3.pdf
+- misc/-- file5_without_extension
      /-- file6.unknown
