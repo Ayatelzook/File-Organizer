@@ -10,20 +10,16 @@
 
 Suppose you have a directory called `Downloads` with the following files:
 ##
-file1.txt
-file2.jpg
-file3.pdf
-file5_without_extension
-file6.unknown
+-file1.txt
+-file2.jpg
+-file3.pdf
+-file5_without_extension
+-file6.unknown
 
 ### output
-Downloads/
-|-- txt/
-|   |-- file1.txt
-|-- jpg/
-|   |-- file2.jpg
-|-- pdf/
-|   |-- file3.pdf
-|-- misc/
-|   |-- file5_without_extension
-|   |-- file6.unknown
+-Downloads/
+- txt/-- file1.txt
+-jpg/-- file2.jpg
+-pdf/-- file3.pdf
+-misc/-- file5_without_extension
+     /-- file6.unknown
